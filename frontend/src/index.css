@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+body {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Andika', serif; /* fallback default */
+}
+  @font-face {
+    font-family: 'Bree Serif';
+    src: url('/src/assets/BreeSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Andika';
+    src: url('/src/assets/Andika-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .custom-serif {
+    font-family:'Bree Serif',serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .custom-andika {
+    font-family: 'Andika',serif;
+    font-weight:400;
+    font-style: normal;
+  }
+
+
+
